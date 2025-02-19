@@ -1,0 +1,90 @@
+html code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mountains</title>
+        <link rel="stylesheet" href="task3.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cards">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.vS0hnvg05rmzzKcjoMAafAHaE8&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <h3>valley mountain</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                         repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                         <button type="submit">reply</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Z5iajfFKkXp6d_z6beMYqQHaE6&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <h3>ice mountain</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                         repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                         <button type="submit">reply</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.1LppgW_EyDH7jr06X2MvfwHaEo&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <h3>greem mountain</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                         repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                         <button type="submit">reply</button>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
+
+css code
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    width: 400px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 100px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+body{
+    background-color:beige;
+}
+
+.cards img{
+    padding: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.card-content{
+    padding: 7px;
+    font-style: oblique;
+}
+
+.cards:hover{
+    box-shadow: 2px 2px 4px black;
+}
+
+.cards button{
+    color: black;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 150px;
+
+}
+
+.cards button:hover{
+    box-shadow: 2px 2px 4px black;
+}
+
